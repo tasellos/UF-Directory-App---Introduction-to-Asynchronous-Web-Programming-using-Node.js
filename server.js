@@ -16,7 +16,7 @@ var requestHandler = function(request, response) {
     HINT: explore the request object and its properties 
     http://stackoverflow.com/questions/17251553/nodejs-request-object-documentation
    */
-    if (request.method === "GET" && parsedUFL.path === "/listings"){
+    if (request.method === "GET" && parsedUrL.path === "/listings"){
      response.status.Code=200;
      response.write(listingData);
         
